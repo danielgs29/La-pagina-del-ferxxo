@@ -45,7 +45,7 @@ body{
 #dige:hover{
    
     transform-origin: center -10px;
-    animation: swing 1.5s ease-in-out alternate infinite;
+    animation: swing 1.3s ease-in-out alternate infinite;
     cursor: pointer;
 }
 
