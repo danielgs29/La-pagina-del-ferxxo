@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Página Del Ferxxo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="titulo">
+        <img src="imagenes/cadena.png" id="cadena">
+    </div>
+    
+    <div class="ferxxo">
+        <img src="imagenes/ferxxo cadena.png" id="dige">
+    </div>
+    
+    <div class="main">
+      
+        <div class="container-bar">
+                <div class="icon-social">
+                    <a href="https://www.facebook.com/feidMDE/" class="fa fa-facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <span id="title">Facebook</span>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCoMlNw7o21I7LqL4OsjSYAg" class="fa fa-youtube">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                        <span id="title">Youtube</span>
+                    </a>
+                    <a href="https://twitter.com/ferxxo4?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <span id="title">Twitter</span>
+                    </a>
+                    <a href="https://www.instagram.com/feid/?hl=es" class="fa fa-github">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <span id="title">Instagram</span>
+                    </a>
+                    <a href="https://open.spotify.com/artist/2LRoIwlKmHjgvigdNGBHNo" class="fa fa-pinterest">
+                        <ion-icon name="shirt"></ion-icon>
+                        <span id="title">Apple</span>
+                    </a>
+                </div>
+               
+            </div>
+            <div class="image">
+                <img src="imagenes/ferxxo5.png" id="image">
+            </div>
+      
+        <div class="player">
+            <img src="covers/covers/FelizCumple.png" alt="cover" class="cover">
+            <h1 class="track-title">Inmortal</h1>
+            <span class="artist-name">Neffex</span>
+            <div class="timeline-slider">
+                <div class="timeline">
+                    <small class="time">0:00</small>
+                    <small class="fullTime">2:55</small>
+                </div>
+                <div class="range-slider">
+                    <input type="range" min="0" max="100" value="0" class="slider">
+                    <div class="slider-thumb"></div>
+                    <div class="progress"></div>
+                </div>
+            </div>
+            <div class="volume-slider">
+                <div class="volume-icon">
+                    <span class="material-symbols-outlined">volume_down</span>
+                </div>
+                <div class="range-slider">
+                    <input type="range" min="0" max="100" value="50" class="slider">
+                    <div class="progress"></div>
+                </div>
+            </div>  
+    
+            <div class="controls">
+                <button class="btn" id="btnPrev">
+                    <span class="material-symbols-outlined">fast_rewind</span>
+                </button>
+                <button class="btn btn-main" id="mainPlayBtn">
+                    <span class="material-symbols-outlined">play_arrow</span>
+                </button>
+                <button class="btn" id="btnNext">
+                    <span class="material-symbols-outlined">fast_forward</span>
+                </button>
+            </div>
+        </div>   
+        <div class="imagen">
+            <img src="imagenes/ferxxo4.png" id="cuerpo">
+        </div>
+    </div>
+   
+    
+    <audio id="audio" hidden>
+    <source src="tracks/Feliz.mp3">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</audio> 
+
+<script src="js/app.js"></script>
+</body>
+</html>
