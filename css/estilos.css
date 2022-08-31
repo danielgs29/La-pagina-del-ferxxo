@@ -152,6 +152,26 @@ span,small{
     background: #ffffff;
 }
 
+#icon1{
+    color: #0ada64;
+    width: 20px;
+    height: 20px;
+    padding-right: 2px;
+}
+#icon2{
+    color: #0ada64;
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+}
+
+#play{
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    padding-left: 2.5px;
+}
+
 .progress{
     width: 50%;
     height: 0.4em;
@@ -349,6 +369,8 @@ span,small{
 }
 
 @media screen and (max-width:1250px){
+
+    
     #dige{
         width: 450px;
     }
@@ -407,6 +429,7 @@ span,small{
 
 @media screen and (max-width:1058px){
 
+   
     #image{
         width: 300px;
         margin-top: 120px;
