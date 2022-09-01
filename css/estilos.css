@@ -412,6 +412,10 @@ span,small{
 
 @media screen and (max-width:1140px){
 
+    body{
+        overflow: visible;
+    }
+
     .player{
         margin-top: 15px;
     }
