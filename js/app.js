@@ -20,10 +20,12 @@ let trackId=0;
 
 const tracks =[
     "Feliz Cumpleaños Ferxxo",
-    "Si Te La Encuentras Por Ahi"
+    "Si Te La Encuentras Por Ahi",
+    "Normal"
 ];
 
 const artists=[
+    "Feid",
     "Feid",
     "Feid"
 ];
@@ -31,7 +33,7 @@ const artists=[
 const covers =[
     "FelizCumple",
     "Sitela",
-    "cover3",
+    "Normal",
     "cover4",
 ]
 
