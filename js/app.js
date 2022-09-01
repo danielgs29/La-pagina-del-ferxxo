@@ -21,10 +21,12 @@ let trackId=0;
 const tracks =[
     "Feliz Cumpleaños Ferxxo",
     "Si Te La Encuentras Por Ahi",
-    "Normal"
+    "Normal",
+    "Ferxxo 100"
 ];
 
 const artists=[
+    "Feid",
     "Feid",
     "Feid",
     "Feid"
@@ -34,7 +36,7 @@ const covers =[
     "FelizCumple",
     "Sitela",
     "Normal",
-    "cover4",
+    "100",
 ]
 
 playBtn.addEventListener("click",playTrack);
