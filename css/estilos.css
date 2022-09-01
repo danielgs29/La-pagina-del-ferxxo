@@ -362,6 +362,10 @@ span,small{
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.0);
 }
 
+.elferxxo{
+    display: none;
+}
+
 @media screen and (max-width:1326px){
     h1{
         font-size: 25px;
@@ -445,6 +449,7 @@ span,small{
         margin-right: 15px;
     }
 
+
     .cover{
         width: 160px;
         margin-top: -10px;
@@ -526,6 +531,14 @@ span,small{
         margin-top: 45px;
     }
 
+    .elferxxo{
+        display:block;
+    }
+    #nose{
+        width: 410px;
+        margin-top: 35px;
+    }
+
 }
 
 @media screen and (max-width:464px){
@@ -541,6 +554,12 @@ span,small{
     .icon-social{
         box-shadow: none;
     }
+
+    #nose{
+        width:360px;
+        margin-top: 35px;
+    }
+
 }
 
 @media screen and (max-width:350px){
@@ -558,6 +577,12 @@ span,small{
         margin: 0 auto;
         margin-bottom: -25px;
        
+    }
+
+    
+    #nose{
+        width:320px;
+        margin-top: 35px;
     }
 
     .cover{
