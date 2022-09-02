@@ -48,13 +48,13 @@ function playTrack(){
     if(trackPlaying==false){
         audio.play();
         playBtn.innerHTML=` 
-        <ion-icon name="play"></ion-icon>`;
+        <ion-icon name="pause"></ion-icon>`;
         trackPlaying =true;
     }
     else{
         audio.pause();
         playBtn.innerHTML=` 
-        <ion-icon name="pause"></ion-icon>`;
+        <ion-icon name="play"></ion-icon>`;
         trackPlaying=false;
     }
 }
@@ -154,11 +154,11 @@ function customVolumeSlider(){
     }
     else if (audio.volume===0){
         volumeIcon.innerHTML=
-        `<ion-icon name="volume-low"></ion-icon>`;
+        `<ion-icon name="volume-mute"></ion-icon>`;
     }
     else{
             volumeIcon.innerHTML=
-            `<ion-icon name="volume-mute"></ion-icon>`;
+            `<ion-icon name="volume-low"></ion-icon>`;
     }
 }
 
