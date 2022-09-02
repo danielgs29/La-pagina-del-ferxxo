@@ -48,13 +48,13 @@ function playTrack(){
     if(trackPlaying==false){
         audio.play();
         playBtn.innerHTML=` 
-        <span class ="material-symbols-outlined">pause</span>`;
+        <ion-icon name="play"></ion-icon>`;
         trackPlaying =true;
     }
     else{
         audio.pause();
         playBtn.innerHTML=` 
-        <span class ="material-symbols-outlined">play_arrow</span>`;
+        <ion-icon name="pause"></ion-icon>`;
         trackPlaying=false;
     }
 }
@@ -150,21 +150,15 @@ function customVolumeSlider(){
 
     if(audio.volume>0.5){
         volumeIcon.innerHTML=
-        `<span class="material-symbols-outlined">
-        volume_up
-        </span>`;
+        `<ion-icon name="volume-high"></ion-icon>`;
     }
     else if (audio.volume===0){
         volumeIcon.innerHTML=
-        `<span class="material-symbols-outlined">
-        volume_off
-        </span>`;
+        `<ion-icon name="volume-low"></ion-icon>`;
     }
     else{
             volumeIcon.innerHTML=
-            `<span class="material-symbols-outlined">
-            volume_down
-            </span>`;
+            `<ion-icon name="volume-mute"></ion-icon>`;
     }
 }
 
