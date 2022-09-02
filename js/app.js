@@ -19,11 +19,13 @@ let volumeMuted=false;
 let trackId=0;
 
 const tracks =[
+    "De Tanto Chimbiar",
     "Feliz Cumpleaños Ferxxo",
     "Si Te La Encuentras Por Ahi",
     "Normal",
     "Ferxxo 100",
-    "Castigo"
+    "Castigo",
+    "La Inocente"
 ];
 
 const artists=[
@@ -31,15 +33,19 @@ const artists=[
     "Feid",
     "Feid",
     "Feid",
-    "Feid"
+    "Feid",
+    "Feid",
+    "Feid, Mora"
 ];
 
 const covers =[
+    "detanto",
     "FelizCumple",
     "Sitela",
     "Normal",
     "100",
-    "castigo"
+    "castigo",
+    "laino"
 ]
 
 playBtn.addEventListener("click",playTrack);
